@@ -1,0 +1,58 @@
+.button{
+    background-color: $nickel;
+    border-radius: 30px;
+    color: white;
+    font-size: $small;
+    outline:none;
+    padding: 16px 12px;
+    border-style: solid;
+
+    &:hover{
+    background-color: $platinum ;
+    border-color: $platinum !important;
+    }
+
+    &:focus{
+        border-color: $platinum !important;
+        border-width: 0.5rem; 
+        background-color: $nickel !important;
+    }
+    
+
+}
+
+.pagination{
+    background-color: $platinum;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    font-family: $roboto normal;
+
+    .paginador__boton-anterior{
+        border-top-left-radius: 1rem !important;
+        border-bottom-left-radius: 1rem !important;
+        color: $eerieblack;
+        font-weight: bold;
+        font-family: $roboto;
+    }
+    .paginador__boton-siguiente{
+        border-top-right-radius: 1rem !important;
+        border-bottom-right-radius: 1rem !important;
+        color: $eerieblack;
+        font-weight: bold;
+        font-family: $roboto;
+    }
+    .page-link{
+        color: $eerieblack;
+    }
+    .active{
+        .page-link{
+            background-color: $nickel;
+            border-color: $nickel;
+        }
+    }
+}
+
+.paginador__boton{
+    color: $eerieblack;
+    font-family: $roboto;
+}
